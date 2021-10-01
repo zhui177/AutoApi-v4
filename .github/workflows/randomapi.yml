@@ -30,8 +30,8 @@ jobs:
         python updaterand.py
     - name: Commit #上传新的排序到仓库
       run: |
-        git config --global user.email AutoupdateRobot@email.com
-        git config --global user.name AutoupdateRobot
+        git config --global user.email 2552724929@qq.com
+        git config --global user.name zhui177
         git add .
         git commit -m "update new randapi" -a
     - name: Push changes
